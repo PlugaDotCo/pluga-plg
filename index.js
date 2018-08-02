@@ -1,4 +1,5 @@
 module.exports = {
   version: require('./package.json').version,
-  axios: require('axios')
+  axios: require('axios'),
+  moment: require('moment')
 };

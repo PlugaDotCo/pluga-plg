@@ -1,6 +1,6 @@
 {
   "name": "pluga-plg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pluga developer platform toolbox",
   "main": "index.js",
   "author": "Pluga <tech@pluga.co> (pluga.co)",
@@ -8,10 +8,8 @@
     "Leonardo Camelo (github.com/leocamelo)"
   ],
   "license": "MIT",
-  "engines": {
-    "node": "8.10"
-  },
   "dependencies": {
-    "axios": "0.18.0"
+    "axios": "0.18.0",
+    "moment": "2.22.2"
   }
 }
