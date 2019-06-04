@@ -1,6 +1,6 @@
 {
   "name": "pluga-plg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pluga developer platform toolbox",
   "main": "index.js",
   "author": "Pluga <tech@pluga.co> (pluga.co)",
@@ -9,7 +9,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "axios": "0.18.0",
-    "moment": "2.22.2"
+    "axios": "^0.19.0"
   }
 }
