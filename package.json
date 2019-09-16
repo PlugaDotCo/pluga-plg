@@ -1,6 +1,6 @@
 {
   "name": "pluga-plg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Pluga developer platform toolbox",
   "main": "index.js",
   "author": "Pluga <tech@pluga.co> (pluga.co)",
