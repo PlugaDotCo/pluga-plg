@@ -17,7 +17,7 @@ Tipo genérico de erro, erros desse tipo deixam o evento em estado de falha. Dev
 
 #### RateLimitError
 
-Erros desse tipo permitem que a Pluga realize o processamento dos eventos automaticamente em um momento futuro. Devem ser utilizados quando um recurso torna-se indisponível por conta do limite de uso por exemplo.
+Erros desse tipo permitem que a Pluga realize o processamento dos eventos automaticamente em um momento futuro. Devem ser utilizados quando um recurso torna-se indisponível por conta do limite de uso por exemplo. Você deve fornecer o tempo necessário (em segundos) para que o recurso esteja disponível novamente.
 
 `plg.errors.rateLimitError(message: String, remaining: Integer(seconds))`
 
