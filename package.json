@@ -1,11 +1,12 @@
 {
   "name": "pluga-plg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pluga developer platform toolbox",
   "main": "index.js",
   "author": "Pluga <tech@pluga.co> (pluga.co)",
   "contributors": [
-    "Leonardo Camelo (github.com/leocamelo)"
+    "Leonardo Camelo (github.com/leocamelo)",
+    "Renan Machado (github.com/renanmac)"
   ],
   "license": "MIT",
   "dependencies": {
