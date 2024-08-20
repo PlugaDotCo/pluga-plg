@@ -1,6 +1,6 @@
 {
   "name": "pluga-plg",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Pluga developer platform toolbox",
   "main": "index.js",
   "author": "Pluga <tech@pluga.co> (pluga.co)",
@@ -9,8 +9,5 @@
     "Renan Machado (github.com/renanmac)",
     "Alexandre Camillo (github.com/alexandrecamillo)"
   ],
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^1.7.4"
-  }
+  "license": "MIT"
 }
