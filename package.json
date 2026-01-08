@@ -1,16 +1,28 @@
 {
   "name": "pluga-plg",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "Pluga developer platform toolbox",
   "main": "index.js",
   "author": "Pluga <tech@pluga.co> (pluga.co)",
   "contributors": [
     "Leonardo Camelo (github.com/leocamelo)",
     "Renan Machado (github.com/renanmac)",
-    "Alexandre Camillo (github.com/alexandrecamillo)"
+    "Alexandre Camillo (github.com/alexandrecamillo)",
+    "Mayara Araujo (github.com/mayaraujom)"
   ],
   "license": "MIT",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.934.0",
+    "@aws-sdk/s3-request-presigner": "^3.934.0",
     "axios": "^1.7.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "eslint": "8.56.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.29.1"
   }
 }
