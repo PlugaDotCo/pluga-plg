@@ -11,17 +11,6 @@ describe('Storage service', () => {
     client = {
       upload: jest.fn(),
       download: jest.fn(),
-      fileExists: jest.fn(),
-      getSignedUrl: jest.fn(),
-    };
-
-    service = new StorageService(client);
-  });
-
-  beforeEach(() => {
-    client = {
-      upload: jest.fn(),
-      download: jest.fn(),
       getSignedUrl: jest.fn(),
       fileExists: jest.fn(),
     };
@@ -50,7 +39,7 @@ describe('Storage service', () => {
       const stream = { fake: 'stream' };
       const expectedResult = { success: true };
 
-      client.download.mockReturnValue({ stream });
+      client.download.mockResolvedValue({ stream });
       streamFileWriter.writeToDisk.mockResolvedValue(expectedResult);
 
       const result = await service.download(params);
