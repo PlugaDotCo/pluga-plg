@@ -13,10 +13,10 @@ Pluga developer platform toolbox
 If you are using the `storageService` (>= 0.2.0), define the following in the environment:
 
 ```env
-AWS_S3_BUCKET=bucket-name
-AWS_REGION=region
-AWS_ACCESS_KEY_ID=access-key
-AWS_SECRET_ACCESS_KEY=secret-key
+SERVICE_STORAGE_S3_BUCKET=bucket-name
+SERVICE_STORAGE_REGION=region
+SERVICE_STORAGE_ACCESS_KEY_ID=access-key
+SERVICE_STORAGE_SECRET_ACCESS_KEY=secret-key
 ```
 ## plg.errors
 
